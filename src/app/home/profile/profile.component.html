@@ -1,0 +1,16 @@
+<div class="profile-container" *ngIf="profileData?.length > 0">
+  <div *ngFor="let profile of profileData" class="profile-card">
+    <p>ID: {{ profile.id }}</p>
+    <h2>{{ profile.name }}</h2>
+    <p>Email: {{ profile.email }}</p>
+    <p>Department: {{ profile.department }}</p>
+    <p>Designation: {{ profile.designation }}</p>
+
+    <button class="btn btn-primary" (click)="deleteEmployee(profile.id)">Delete</button>
+    <button class="btn btn-primary" (click)="editEmployee(profile.id)">Edit</button>
+  </div>
+</div>
+
+<div *ngIf="profileData.length === 0">
+  <p>No profiles found.</p>
+</div>

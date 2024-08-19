@@ -1,1 +1,40 @@
-/* You can add global styles to this file, and also import other style files */
+/* Global styles */
+
+body.light {
+    background-color: white;
+    color: black; /* Default text color for light theme */
+    
+    .header {
+      background-color: #ffffff;
+      color: #000000;
+    }
+    
+    .sidebar {
+      background-color: #a4a4a4; /* Slightly off-white to differentiate from the header */
+      color: #000000a1; /* Ensure text is black for visibility */
+      
+      a {
+        color: #000000; /* Links or text inside sidebar */
+      }
+    }
+  }
+  
+  body.dark {
+    background-color: #2c2c2c;
+    color: white; /* Default text color for dark theme */
+    
+    .header {
+      background-color: #1f1f1f;
+      color: #ffffff;
+    }
+    
+    .sidebar {
+      background-color: #3a3a3a;
+      color: #ffffff; /* Ensure text is white for visibility */
+      
+      a {
+        color: #ffffff; /* Links or text inside sidebar */
+      }
+    }
+  }
+  

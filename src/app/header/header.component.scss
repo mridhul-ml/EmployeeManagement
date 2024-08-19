@@ -1,0 +1,12 @@
+.img-fluid{
+    width: 10%;
+}
+/* Navbar styles */
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1000; /* Higher z-index to stay above the sidebar */
+    top: 0;
+    left: 0;
+  }
+  

@@ -1,0 +1,22 @@
+.settings-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    text-align: center;
+  
+    h2 {
+      margin-bottom: 20px;
+    }
+  
+    label {
+      margin-bottom: 10px;
+      cursor: pointer;
+  
+      input[type="radio"] {
+        margin-right: 8px;
+      }
+    }
+  }
+  

@@ -1,0 +1,28 @@
+.profile-container {
+  margin-left: 250px; /* Same as the width of the sidebar */
+  padding: 20px; /* Some padding */
+  margin-top: 60px; /* Offset to account for the height of the navbar */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; /* Adjust the gap between cards as needed */
+  }
+  
+  .profile-card {
+    background-color: #46434336;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    width: calc(33.333% - 32px); /* Adjust the width as needed */
+    box-sizing: border-box;
+    margin-bottom: 16px;
+  }
+  
+  .profile-card h2 {
+    margin-top: 0;
+  }
+  
+  .profile-card p {
+    margin: 4px 0;
+  }
+  

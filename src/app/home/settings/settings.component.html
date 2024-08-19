@@ -1,0 +1,12 @@
+<div class="settings-container">
+    <h2>Settings</h2>
+    <label>
+      <input type="radio" name="theme" (change)="changeTheme('light')" [checked]="currentTheme === 'light'">
+      Light Theme
+    </label>
+    <label>
+      <input type="radio" name="theme" (change)="changeTheme('dark')" [checked]="currentTheme === 'dark'">
+      Dark Theme
+    </label>
+  </div>
+  
