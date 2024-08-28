@@ -40,6 +40,7 @@ export class EmpService {
 
 
   editEmployee(id: string, updatedData: any): Observable<any> {
-    return this.http.put(this.employeeURL, updatedData);
+    const url = `${this.employeeURL}/${id}`;
+    return this.http.put<any>(url, updatedData);
   }
 }
